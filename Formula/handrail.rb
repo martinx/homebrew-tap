@@ -2,28 +2,28 @@
 class Handrail < Formula
   desc "Policy packs for coding agents: enforced where the agent allows it"
   homepage "https://handrail.bitey.ai"
-  version "0.1.2"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/martinx/handrail/releases/download/v0.1.2/handrail-aarch64-apple-darwin.tar.gz"
-      sha256 "cbfbe70bdbadc0bd01bba1c9652bd2d0d3e522d1de6a55bfa70c2eb4f7bd111b"
+      url "https://github.com/martinx/handrail/releases/download/v0.2.0/handrail-aarch64-apple-darwin.tar.gz"
+      sha256 "52afe7a8ea1753187420d46de0d74f6e8f0523268dbacb49acfa6387e278151c"
     end
     on_intel do
-      url "https://github.com/martinx/handrail/releases/download/v0.1.2/handrail-x86_64-apple-darwin.tar.gz"
-      sha256 "12f08ade9c6ee194b2751f1450052947a8096d498ef6086552706cd2be4c6b77"
+      url "https://github.com/martinx/handrail/releases/download/v0.2.0/handrail-x86_64-apple-darwin.tar.gz"
+      sha256 "dc0cc85fc7b007c89cb0b139bb8a283e3d1a1f8772e8a05bc56b45e7d6a08c53"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/martinx/handrail/releases/download/v0.1.2/handrail-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "37679ebd0352d880d799a93200b2f512d31b27639faa6b2c2f669ecb23651f49"
+      url "https://github.com/martinx/handrail/releases/download/v0.2.0/handrail-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7232b49ee5c45c2ecef6496be64d756933fba1a7abb56ca1e5c01d3e23873af5"
     end
     on_intel do
-      url "https://github.com/martinx/handrail/releases/download/v0.1.2/handrail-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "04f399aa536de01f9351ca5844dbe576a3f6fa4712e84ddb9f2b0c89d5700f72"
+      url "https://github.com/martinx/handrail/releases/download/v0.2.0/handrail-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2817c53763ac36611f46481510f0c4768b7cbbfe5eae2cd5d416cbcc463c778c"
     end
   end
 
